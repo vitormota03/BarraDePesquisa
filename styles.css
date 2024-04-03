@@ -1,0 +1,10 @@
+.voice-btn {
+  background-color: #ff0000; /* Vermelho calmo */
+  color: #fff; /* Cor do texto */
+  border-color: #ff0000; /* Cor da borda */
+}
+
+.voice-btn:hover {
+  background-color: #ff0000da; /* Vermelho calmo mais escuro ao passar o mouse */
+  border-color: #ff0000da; /* Cor da borda ao passar o mouse */
+}

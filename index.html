@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Pesquisa com Busca por Voz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 mt-4">
+        <img src="logo_MDV" alt="MDV E-commerce" class="img-fluid">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6 offset-md-3 mt-4">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-warning voice-btn" type="button" id="voiceButton">
+              <i class="fas fa-microphone"></i>
+            </button>
+          </div>
+          <input type="text" id="searchInput" class="form-control" placeholder="Fale conosco! O que você está procurando hoje?">
+          <div class="input-group-append">
+            <button class="btn btn-warning" type="button" id="searchButton">Buscar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card" data-name="Camiseta Masculina">
+          <img src="product1.jpg" class="card-img-top" alt="Produto 1">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta Masculina</h5>
+            <p class="card-text">Descrição do produto.</p>
+            <a href="#" class="btn btn-warning btn-block">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" data-name="Tênis Esportivo">
+          <img src="product2.jpg" class="card-img-top" alt="Produto 2">
+          <div class="card-body">
+            <h5 class="card-title">Tênis Esportivo</h5>
+            <p class="card-text">Descrição do produto.</p>
+            <a href="#" class="btn btn-warning btn-block">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" data-name="Bolsa Feminina">
+          <img src="product3.jpg" class="card-img-top" alt="Produto 3">
+          <div class="card-body">
+            <h5 class="card-title">Bolsa Feminina</h5>
+            <p class="card-text">Descrição do produto.</p>
+            <a href="#" class="btn btn-warning btn-block">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
